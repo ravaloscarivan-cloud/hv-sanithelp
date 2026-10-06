@@ -1,0 +1,12 @@
+node_modules
+dist
+.vite
+.vercel
+.env*
+!.env.example
+
+# Resultados de pruebas locales (hojas de vida y datos personales): nunca al repositorio.
+data
+
+# Los genera la prueba e2e en cada ejecución.
+tests/fixtures
